@@ -8,11 +8,9 @@ export default function Context({children}) {
 
     return (
         <CounterContext.Provider
-            value={{clicks, setClicks}}>
+            value={{ clicks, setClicks}}>
                 {children}
         </CounterContext.Provider>
 
     )
-
-
 }

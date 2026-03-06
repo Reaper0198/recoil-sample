@@ -1,12 +1,15 @@
-
 import './App.css'
+import Context from './components/context'
+import ContextApiComp from './components/ContextApiComp'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-     
+    <Context>
+        <ContextApiComp />
+    </Context>
     </>
   )
 }
